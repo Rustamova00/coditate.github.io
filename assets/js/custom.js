@@ -4,14 +4,17 @@ function addPlayButtonFunctionality() {
 
 	//adding event listener for button onclick
 	playButton.addEventListener("click", () => {
-        const isPlaying = !audio.paused;
+		const isPlaying = !audio.paused;
 
-        if(!isPlaying){
-		    audio.play();
-        }
-        else{
-            audio.pause();
-        }
+		if (!isPlaying) {
+			audio.play();
+			playButton.style.backgroundImage =
+				"url(assets/css/images/pause-button.svg)";
+		} else {
+			audio.pause();
+			playButton.style.backgroundImage =
+				"url(assets/css/images/play-button.svg)";
+		}
 		loadInNewBackground("assets/css/gradient-background.css");
 	});
 }
