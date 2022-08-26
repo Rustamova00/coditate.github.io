@@ -12,7 +12,7 @@ The website will allow automatically sense the pause in coding and alert the cod
 
 
 Team: 
-Lola Rustamova
+Khilola Rustamova
 Malcolm Charles
 Jennifer Alvarado
 Tshetrim (Tim) Lhendup
