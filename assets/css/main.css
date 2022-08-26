@@ -2348,7 +2348,7 @@ body.is-touch .main {
 /* One */
 
 #one {
-	background: url("images/overlay.png"), url("../../images/one.jpg");
+	background: url("images/overlay.png"), url("../../images/isolate-bg.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
@@ -2357,7 +2357,7 @@ body.is-touch .main {
 /* Two */
 
 #two {
-	background: url("images/overlay.png"), url("../../images/two.jpg");
+	background: url("images/overlay.png"), url("../../images/experiment-bg.png");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
@@ -2366,7 +2366,7 @@ body.is-touch .main {
 /* Three */
 
 #three {
-	background: url("images/overlay.png"), url("../../images/one.jpg");
+	background: url("images/overlay.png"), url("../../images/expectations-bg.png");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
@@ -2375,7 +2375,7 @@ body.is-touch .main {
 /* Four */
 
 #four {
-	background: url("images/overlay.png"), url("../../images/two.jpg");
+	background: url("images/overlay.png"), url("../../images/questions-bg.png");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
@@ -2393,7 +2393,7 @@ body.is-touch .main {
 /* Six */
 
 #six {
-	background: url("images/overlay.png"), url("../../images/two.jpg");
+	background: url("images/overlay.png"), url("../../images/break-bg.png");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
