@@ -60,6 +60,11 @@
 		background-repeat: repeat, no-repeat;
 	}
 
+	#front{
+		@import 'colordrops';
+	}
+
+
 /* One */
 
 	#one {
