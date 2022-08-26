@@ -4,14 +4,19 @@ function addPlayButtonFunctionality() {
 
 	//adding event listener for button onclick
 	playButton.addEventListener("click", () => {
-		audio.play();
+        const isPlaying = !audio.paused;
+
+        if(!isPlaying){
+		    audio.play();
+        }
+        else{
+            audio.pause();
+        }
 		loadInNewBackground("assets/css/gradient-background.css");
 	});
 }
 
 function loadInNewBackground(url) {
-	var file = location.pathname.split(url).pop();
-
 	var link = document.createElement("link");
 	link.href = url;
 	link.rel = "stylesheet";

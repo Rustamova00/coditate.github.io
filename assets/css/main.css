@@ -832,6 +832,7 @@ button.anchored {
 	left: 50%;
 }
 
+
 input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
@@ -2356,6 +2357,42 @@ body.is-touch .main {
 /* Two */
 
 #two {
+	background: url("images/overlay.png"), url("../../images/two.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* Three */
+
+#three {
+	background: url("images/overlay.png"), url("../../images/one.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* Four */
+
+#four {
+	background: url("images/overlay.png"), url("../../images/two.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* Five */
+
+#five {
+	background: url("images/overlay.png"), url("../../images/one.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* Six */
+
+#six {
 	background: url("images/overlay.png"), url("../../images/two.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
